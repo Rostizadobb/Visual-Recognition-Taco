@@ -18,16 +18,18 @@ Buscar el servicio “Visual Recognition” (Escríbelo en el buscador o encuén
 ![](assets/cloud5.png)<br/><br/>
 Ir a "Manage” y dar click en “Create a custom model”<br/><br/>
 ![](assets/cloud6.png)<br/><br/>
-Automaticamente se creará el servicio de “Object Storage”.<br/><br/>
+Automaticamente se creará el servicio de “Object Storage”.<br/>
 
 ## 3.	Crear el modelo un modelo en Visual Recognition
-Dentro del panel de Visual Recognition, realizar los siguientes pasos:<br/>
-      1.	En el apartado de "Classify Images" hacemos clic en “Create Model”<br/>
-      ![](assets/cloud7.png)<br/> 
-      2.	Ingresamos el nombre “Tacos”.<br/>
-      3.	Seleccionamos los servicios anteriormente creados (Watson Studio y Object Storage). <br/>
-      4.	Hacemos clic en el botón “Create”. <br/>
-      ![](assets/cloud8.png)<br/> 
+### Dentro del panel de Visual Recognition, realizar los siguientes pasos:
+      1.	En el apartado de "Classify Images" hacemos clic en “Create Model”
+   ![](assets/cloud7.png)<br/>
+   
+      2.	Ingresamos el nombre “Tacos”.
+      3.	Seleccionamos los servicios anteriormente creados (Watson Studio y Object Storage).
+      4.	Hacemos clic en el botón “Create”.
+   ![](assets/cloud8.png)<br/> 
+   
       5.	Agregar archivos al proyecto y entrenamiento
         •	Cambiamos el nombre del Modelo por “Tipos de tacos”
         •	Agregamos los archivos .zip que se encuentran en la carpeta “Tacos imágenes” (del repositorio) en el área de “Upload to Project”
