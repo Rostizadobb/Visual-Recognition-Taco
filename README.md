@@ -1,34 +1,34 @@
-Visual Recognition 
-1.	Pre-requisitos
-•	Tener instalado Node.js (https://nodejs.org/es/ )
-•	Tener una cuenta de IBM Cloud (https://cloud.ibm.com/login)
-•	Clonar Repositorio de Github (https://github.com/ibmdevadvmx/Visual-Recognition-Taco )
-
-2.	Crear el Servicio de Watson Studio
-En “https://cloud.ibm.com/” ir a la sección de catálogo, buscar el servicio “Watson Studio” (Escríbelo en el buscador o encuéntralo en la sección “AI”) y crear el servicio.
+# Workshop - Visual recognition 
+Aprende a crear un servicio de visual recognition en IBM Cloud para clasificar tacos!
+# Pre-requisitos
+•	Tener instalado [**Node.js**](https://nodejs.org/es/).<br/>
+•	Tener una cuenta de [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
+•	Clonar este Repositorio de [**Github**](https://github.com/ibmdevadvmx/Visual-Recognition-Taco ).<br/>
+## 1. Crea el Servicio de Watson Studio
+Entra a [**IBM Cloud**](https://cloud.ibm.com/) e ir a la sección de catálogo.<br/>
+![alt text](https://raw.githubusercontent.com/Rostizadobb/Visual-Recognition-Taco/tree/master/assets/cloud1.png)<br/>
+Buscar el servicio “Watson Studio” (Escríbelo en el buscador o encuéntralo en la sección “AI”) y crear el servicio.
+![](https://raw.githubusercontent.com/Rostizadobb/Visual-Recognition-Taco/tree/master/assets/cloud2.png)<br/>
+![](https://raw.githubusercontent.com/Rostizadobb/Visual-Recognition-Taco/tree/master/assets/cloud3.png)<br/>
  
+## 2.	Crear el Servicio de Visual Recognition
+Dentro de [**IBM Cloud**] (https://cloud.ibm.com/) ir a la sección de catálogo.
+![](https://raw.githubusercontent.com/Rostizadobb/Visual-Recognition-Taco/tree/master/assets/cloud1.png)<br/>
+Buscar el servicio “Visual Recognition” (Escríbelo en el buscador o encuéntralo en la sección “AI”) y crear el servicio.
+![](https://raw.githubusercontent.com/Rostizadobb/Visual-Recognition-Taco/tree/master/assets/cloud4.png)<br/>
+![](https://raw.githubusercontent.com/Rostizadobb/Visual-Recognition-Taco/tree/master/assets/cloud5.png)<br/>
+Ir a "Manage” y dar click en “Create a custom model”
+![](https://raw.githubusercontent.com/Rostizadobb/Visual-Recognition-Taco/tree/master/assets/cloud6.png)<br/> 
+Automaticamente se creará el servicio de “Object Storage”.<br/>
 
-
-
-
-
-
-
-3.	Crear el Servicio de Visual Recognition
-•	En “https://cloud.ibm.com/” ir a la sección de catálogo, buscar el servicio “Visual Recognition” (Escríbelo en el buscador o encuéntralo en la sección “AI”) y crear el servicio.
-
- 
-
-•	Ir a "Manage” y dar click en “Launch Watson Studio”
- 
-•	Automaticamente se creará el servicio de “Object Storage”
-
-4.	Crear el modelo un modelo en Visual Recognition
-•	Dentro del panel de Visual Recognition, realizar los siguientes pasos:
-      1.	Hacemos clic en “Create Model”
-      2.	Ingresamos el nombre “Tacos”.
-      3.	Seleccionamos los servicios anteriormente creados (Watson Studio y Object Storage). 
-      4.	Hacemos clic en el botón “Create”
+## 3.	Crear el modelo un modelo en Visual Recognition
+Dentro del panel de Visual Recognition, realizar los siguientes pasos:<br/>
+      1.	En el apartado de "Classify Images" hacemos clic en “Create Model”<br/>
+      ![](https://raw.githubusercontent.com/Rostizadobb/Visual-Recognition-Taco/tree/master/assets/cloud7.png)<br/> 
+      2.	Ingresamos el nombre “Tacos”.<br/>
+      3.	Seleccionamos los servicios anteriormente creados (Watson Studio y Object Storage). <br/>
+      4.	Hacemos clic en el botón “Create”. <br/>
+      
 5.	Agregar archivos al proyecto y entrenamiento
 •	Cambiamos el nombre del Modelo por “Tipos de tacos”
 •	Agregamos los archivos .zip que se encuentran en la carpeta “Tacos imágenes” (del repositorio) en el área de “Upload to Project”
