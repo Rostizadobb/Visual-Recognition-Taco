@@ -3,22 +3,22 @@ Aprende a crear un servicio de visual recognition en IBM Cloud para clasificar t
 # Pre-requisitos
 •	Tener instalado [**Node.js**](https://nodejs.org/es/).<br/>
 •	Tener una cuenta de [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
-•	Clonar este Repositorio de [**Github**](https://github.com/ibmdevadvmx/Visual-Recognition-Taco ).<br/>
+•	Clonar este Repositorio de [**Github**](https://github.com/ibmdevadvmx/Visual-Recognition-Taco ).<br/> 
 ## 1. Crea el Servicio de Watson Studio
-Entra a [**IBM Cloud**](https://cloud.ibm.com/) e ir a la sección de catálogo.<br/>
-![](assets/cloud1.png)<br/>
-Buscar el servicio “Watson Studio” (Escríbelo en el buscador o encuéntralo en la sección “AI”) y crear el servicio.
+Entra a [**IBM Cloud**](https://cloud.ibm.com/) e ir a la sección de catálogo.<br/> <br/>
+![](assets/cloud1.png) <br/> <br/>
+Buscar el servicio “Watson Studio” (Escríbelo en el buscador o encuéntralo en la sección “AI”) y crear el servicio.<br/><br/>
 ![](assets/cloud2.png)<br/>
-![](assets/cloud3.png)<br/>
+<br/>![](assets/cloud3.png)<br/>
 ## 2.	Crear el Servicio de Visual Recognition
-Dentro de [**IBM Cloud**] (https://cloud.ibm.com/) ir a la sección de catálogo.
-![](assets/cloud1.png)<br/>
-Buscar el servicio “Visual Recognition” (Escríbelo en el buscador o encuéntralo en la sección “AI”) y crear el servicio.
-![](assets/cloud4.png)<br/>
-![](assets/cloud5.png)<br/>
-Ir a "Manage” y dar click en “Create a custom model”
-![](assets/cloud6.png)<br/> 
-Automaticamente se creará el servicio de “Object Storage”.<br/>
+Dentro de [**IBM Cloud**](https://cloud.ibm.com/) ir a la sección de catálogo.<br/><br/>
+[](assets/cloud1.png)<br/>
+Buscar el servicio “Visual Recognition” (Escríbelo en el buscador o encuéntralo en la sección “AI”) y crear el servicio.<br/><br/>
+![](assets/cloud4.png)<br/><br/>
+![](assets/cloud5.png)<br/><br/>
+Ir a "Manage” y dar click en “Create a custom model”<br/><br/>
+![](assets/cloud6.png)<br/><br/>
+Automaticamente se creará el servicio de “Object Storage”.<br/><br/>
 
 ## 3.	Crear el modelo un modelo en Visual Recognition
 Dentro del panel de Visual Recognition, realizar los siguientes pasos:<br/>
