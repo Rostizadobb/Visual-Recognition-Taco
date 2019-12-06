@@ -12,7 +12,7 @@ Buscar el servicio “Watson Studio” (Escríbelo en el buscador o encuéntralo
 <br/>![](assets/cloud3.png)<br/>
 ## 2.	Crear el Servicio de Visual Recognition
 Dentro de [**IBM Cloud**](https://cloud.ibm.com/) ir a la sección de catálogo.<br/><br/>
-[](assets/cloud1.png)<br/>
+![](assets/cloud1.png)<br/>
 Buscar el servicio “Visual Recognition” (Escríbelo en el buscador o encuéntralo en la sección “AI”) y crear el servicio.<br/><br/>
 ![](assets/cloud4.png)<br/><br/>
 ![](assets/cloud5.png)<br/><br/>
