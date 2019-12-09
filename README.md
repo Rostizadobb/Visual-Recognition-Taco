@@ -32,10 +32,18 @@ Automaticamente se creará el servicio de “Object Storage”.<br/>
    
       5.	Agregar archivos al proyecto y entrenamiento
         •	Cambiamos el nombre del Modelo por “Tipos de tacos”
+   ![](assets/cloud9.png)<br/> 
+   
         •	Agregamos los archivos .zip que se encuentran en la carpeta “Tacos imágenes” (del repositorio) en el área de “Upload to Project”
+   ![](assets/cloud10.png)<br/> 
+   
         •	Seleccionamos todos los archivos importados y hacemos clic en “Add to model” 
-        •	Una vez cargadas las fotos podremos observaremos que aparece “Ready to train” y haremos clic en “Train model”. 
-        •	Una vez finalizado el entrenamiento podremos probarlo con el archivo “pastor.jpg” siguiendo la siguiente ruta: tacosassetstipos de tacostestbrowsepastor.jpg
+   ![](assets/cloud11.png)<br/> 
+
+        •	Una vez cargadas las fotos podremos observaremos que aparece “Ready to train” y haremos clic en “Train model”.
+   ![](assets/cloud12.png)<br/> 
+   
+        •	Una vez finalizado el entrenamiento podremos probarlo con el archivo “pastor.jpg” que se encuentra en la carpeta "Imagenes Prueba" de este repositorio
 
 6.	Obtenga las credenciales del servicio
 
