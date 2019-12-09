@@ -1,5 +1,6 @@
-# Workshop - Visual recognition 
-Aprende a crear un servicio de visual recognition en IBM Cloud para clasificar tacos!
+# IBM Recipe - Visual recognition 
+### Aprende a crear un servicio de visual recognition en IBM Cloud para clasificar tacos!
+![](assets/visualrec.png)<br/> 
 # Pre-requisitos
 •	Tener instalado [**Node.js**](https://nodejs.org/es/).<br/>
 •	Tener una cuenta de [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
@@ -22,39 +23,41 @@ Automaticamente se creará el servicio de “Object Storage”.<br/>
 
 ## 3.	Crear el modelo un modelo en Visual Recognition
 ### Dentro del panel de Visual Recognition, realizar los siguientes pasos:
-      1.	En el apartado de "Classify Images" hacemos clic en “Create Model”
+      •	En el apartado de "Classify Images" hacemos clic en “Create Model”
    ![](assets/cloud7.png)<br/>
    
-      2.	Ingresamos el nombre “Tacos”.
-      3.	Seleccionamos los servicios anteriormente creados (Watson Studio y Object Storage).
-      4.	Hacemos clic en el botón “Create”.
+      •	Ingresamos el nombre “Tacos”.
+      •	Seleccionamos los servicios anteriormente creados (Watson Studio y Object Storage).
+      •	Hacemos clic en el botón “Create”.
    ![](assets/cloud8.png)<br/> 
    
-      5.	Agregar archivos al proyecto y entrenamiento
+## 4.	Agrega archivos al proyecto y entrena el modelo
         •	Cambiamos el nombre del Modelo por “Tipos de tacos”
    ![](assets/cloud9.png)<br/> 
    
-        •	Agregamos los archivos .zip que se encuentran en la carpeta “Tacos imágenes” (del repositorio) en el área de “Upload to Project”
+        •	Agregamos los archivos .zip que se encuentran en la carpeta 
+        “Tacos imágenes” (del repositorio) en el área de “Upload to Project”
    ![](assets/cloud10.png)<br/> 
    
         •	Seleccionamos todos los archivos importados y hacemos clic en “Add to model” 
    ![](assets/cloud11.png)<br/> 
 
-        •	Una vez cargadas las fotos podremos observaremos que aparece “Ready to train” y haremos clic en “Train model”.
+        •	Una vez cargadas las fotos podremos observaremos que aparece “Ready to train”
+        y haremos clic en “Train model”.
    ![](assets/cloud12.png)<br/> 
    
-        •	Una vez finalizado el entrenamiento podremos probarlo con el archivo “pastor.jpg” que se encuentra en la carpeta "Imagenes Prueba" de este repositorio
+        •	Una vez finalizado el entrenamiento podremos probarlo con el archivo “pastor.jpg”
+        que se encuentra en la carpeta "Imagenes Prueba" de este repositorio
 
-6.	Obtenga las credenciales del servicio
+## 5.	Obtenga las credenciales del servicio
 
-•	Abra una nueva pestaña en su navegador para acceder IBM Cloud: 
-https://cloud.ibm.com¬/
+•	Abra una nueva pestaña en su navegador para acceder a [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
 
 •	En el panel de control, haga clic en el servicio>VisualRecognition>ServiceCredentials y de clic en ver credenciales.
 •	Copia las credenciales en el editor de texto de tu preferencia para que podamos usarlas más tarde. Las credenciales se verán como estas:
 •	Ahora puede cerrar esta pestaña del navegador.
 
-7.	Probando la app 
+6.	Probando la app 
     •	Configurar las credenciales en el archivo “app.js” de la carpeta visual-recognition-taco-master
     •	Copiamos el “apikey” de las credenciales que copiamos en el paso anterior y la colocamos en la variable “iam_apikey”.
     •	Para obtener el model ID vamos al apartado Tipos de Tacos y copiamos como a continuación se indica.
@@ -72,7 +75,7 @@ https://cloud.ibm.com¬/
       •	Volver a seleccionar el archivo “lengua.jpg”y hacer clic en el botón “Clasificador general” para utilizar el clasificador por defecto de Watson Visual Recognition y observar el resultado.
 
 
-8.	Desplegar app en la nube 
+7.	Desplegar app en la nube 
     •	Primero tenemos ir a la dirección de la carpeta que descargamos desde la terminal.
 
     •	Nos logearemos a la plataforma de IBM Cloud con el comando IBM Cloud login e ingresaremos el correo y la contraseña con la que creamos la cuenta en IBM.
