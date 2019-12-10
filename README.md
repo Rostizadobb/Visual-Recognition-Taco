@@ -55,7 +55,9 @@ Automaticamente se creará el servicio de “Object Storage”.<br/>
 
 ## 5.	Obtenga las credenciales del servicio 
  Abra una nueva pestaña en su navegador para acceder a [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
- En el panel de control, haga clic en el servicices > VisualRecognition<br/>
+         
+         En el panel de control, haga clic en el servicices > VisualRecognition
+         
  ![](assets/cloud19.png)<br/><br/>
 Ir a la pestaña "ServiceCredentials", dirigete a las credenciales "writer" y da clic en ver credenciales.<br/><br/>
 ![](assets/cloud13.png)<br/><br/>
@@ -64,8 +66,8 @@ Copia las credenciales en el editor de texto de tu preferencia para que podamos 
 ## Nota: NO Utilizar las "Auto Generated Credentials" <br/>
 
 ## 6.	Probando la app 
-   Descarga este repositorio a tu computadora.<br/>
-   Abrimos el archivo “app.js” que se encuentra en este repositorio.<br/>
+   Descarga este repositorio a tu computadora.<br/><br/>
+   Abrimos el archivo “app.js” que se encuentra en este repositorio.<br/><br/>
    Copiamos el “apikey” de las credenciales que copiamos en el paso anterior y la colocamos en la variable “iam_apikey”.<br/>
    ![](assets/cloud20.png)<br/><br/>
    Para obtener el model ID vamos al apartado Tipos de Tacos y copiamos como a continuación se indica.<br/>
@@ -76,19 +78,33 @@ Copia las credenciales en el editor de texto de tu preferencia para que podamos 
       
       1.	Ingresar: npm install 
       2.	Ingresar: npm start
-   Dirigirse al localhost en el puerto “8080 ” introduciendo esta [**liga**](http://localhost:8080/) 
-
-      •	Selecciona el archivo “pastor.jpg” para probar la aplicación.
-      •	Da Clic en el botón “Clasificador de taco personalizado“ para utilizar el modelo que acabamos de crear y observar el resultado.
-
-      •	Volver a seleccionar el archivo “lengua.jpg”y hacer clic en el botón “Clasificador general” para utilizar el clasificador por defecto de Watson Visual Recognition y observar el resultado.
-
-
+      
+   Dirigirse al localhost en el puerto “8080 ” introduciendo esta [**liga**](http://localhost:8080/)<br/> <br/>
+   Da click en el botón "Archivo" y selecciona la imagen “pastor.jpg” para probar la aplicación.<br/>
+   ![](assets/cloud23.png)<br/><br/>
+    Damos clic en el botón “Clasificador de taco personalizado“ para utilizar el modelo que acabamos de crear y observar el resultado.<br/>
+   ![](assets/cloud24.png)<br/><br/>
+    Ahora seleccionamos el archivo “lengua.jpg”y hacemos clic en el botón “Clasificador general” para utilizar el clasificador por defecto de Watson Visual Recognition y observa el resultado.
+   ![](assets/cloud25.png)<br/><br/>
+   
 ## 7.	Desplegar app en la nube 
 Sube la carpeta en donde tienes la app a un repositorio propio de GitHub.<br/>
-Puedes desplegar esta aplicación como una Cloud Foundry application hacia IBM Cloud dando click en el boton de abajo. Esta opción creará una deployment pipeline, con un Git lab project hosteado y una devops toolchain.<br/>    
+Puedes desplegar esta aplicación como una Cloud Foundry application hacia IBM Cloud dando click en el botón de abajo. Esta opción creará una deployment pipeline, con un Git lab project hosteado y una devops toolchain.<br/>    
 <p align="center">
     <a href="https://cloud.ibm.com/devops/setup/deploy?repository">
     <img src="https://cloud.ibm.com/devops/setup/deploy/button_x2.png" alt="Deploy to IBM Cloud">
     </a>
 </p>
+Damos clic en "Get started <br/>
+![](assets/cloud26.png)<br/><br/>
+Ingresamos en la opción "Develop a Cloud Foundry app"<br/> 
+![](assets/cloud27.png)<br/><br/>
+Ingresamos el link del repositorio de Git en el recuadro marcado<br/>
+![](assets/cloud28.png)<br/><br/>
+Ahora nos vamos al apartado de "Delivery Pipeline" y creamos una IBM Cloud API Key con el botón "create + "<br/>
+![](assets/cloud29.png)<br/><br/>
+Damos clic en el botón "Create" de la parte superior y esperamos a que se despliegue nuestra app<br/>
+![](assets/cloud30.png)<br/><br/>
+Podemos consultar el URL de la app esperando a que el despliegue termine ó buscando la app en el dashboard de IBM Cloud, damos clic en el nombre de la app, y damos click en el URL de la Overview page para abrir la app en una nueva pestaña en el navegador.<br/>
+![](assets/cloud31.png)<br/><br/>
+
