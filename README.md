@@ -95,16 +95,28 @@ Puedes desplegar esta aplicación como una Cloud Foundry application hacia IBM C
     <img src="https://cloud.ibm.com/devops/setup/deploy/button_x2.png" alt="Deploy to IBM Cloud">
     </a>
 </p>
-Damos clic en "Get started <br/>
+
+     Damos clic en "Get started <br/>
+     
 ![](assets/cloud26.png)<br/><br/>
-Ingresamos en la opción "Develop a Cloud Foundry app"<br/> 
+
+    Ingresamos en la opción "Develop a Cloud Foundry app".
+    
 ![](assets/cloud27.png)<br/><br/>
-Ingresamos el link del repositorio de Git en el recuadro marcado<br/>
+
+    Ingresamos el link del repositorio de Git en el recuadro marcado.
+    
 ![](assets/cloud28.png)<br/><br/>
-Ahora nos vamos al apartado de "Delivery Pipeline" y creamos una IBM Cloud API Key con el botón "create + "<br/>
+
+    Ahora nos vamos al apartado de "Delivery Pipeline" y creamos una IBM Cloud API Key con el botón "create + ".
+    
 ![](assets/cloud29.png)<br/><br/>
-Damos clic en el botón "Create" de la parte superior y esperamos a que se despliegue nuestra app<br/>
+
+    Damos clic en el botón "Create" de la parte superior y esperamos a que se despliegue nuestra app.
+    
 ![](assets/cloud30.png)<br/><br/>
+
 Podemos consultar el URL de la app esperando a que el despliegue termine ó buscando la app en el dashboard de IBM Cloud, damos clic en el nombre de la app, y damos click en el URL de la Overview page para abrir la app en una nueva pestaña en el navegador.<br/>
+
 ![](assets/cloud31.png)<br/><br/>
 
