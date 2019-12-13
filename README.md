@@ -4,7 +4,8 @@
 # Pre-requisitos
 •	Tener instalado [**Node.js**](https://nodejs.org/es/).<br/>
 •	Tener una cuenta de [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
-•	Clonar este Repositorio de [**Github**](https://github.com/ibmdevadvmx/Visual-Recognition-Taco ).<br/> 
+•	Tener una cuenta en [**Github**](https://github.com).<br/>
+•	Clonar este Repositorio.<br/> 
 # Cupones para Estudiantes y profesores
 1.	Acceder al [**HUB para Software para uso académico**](https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM). Y navegar hasta la parte de abajo de la pagina  
 2.	Buscar el WebStore del instituto/escuela al que perteneces. 
