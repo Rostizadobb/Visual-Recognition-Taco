@@ -1,10 +1,21 @@
 # IBM Recipe - Visual recognition 
-### Aprende a crear un servicio de visual recognition para clasificar tacos y despliegalo en una app directamente a IBM Cloud!
 ![](assets/visualrec.png)<br/> 
+### Aprende a crear un servicio de visual recognition para clasificar tacos y despliegalo en una app directamente a IBM Cloud!
 # Pre-requisitos
 •	Tener instalado [**Node.js**](https://nodejs.org/es/).<br/>
 •	Tener una cuenta de [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
 •	Clonar este Repositorio de [**Github**](https://github.com/ibmdevadvmx/Visual-Recognition-Taco ).<br/> 
+# Cupones para Estudiantes y profesores
+1.	Acceder al [**HUB para Software para uso académico**](https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM). Y navegar hasta la parte de abajo de la pagina  
+2.	Buscar el WebStore del instituto/escuela al que perteneces. 
+3.	En caso de no contar con WebStore, acceder al portal de [**IBM Academic Initiative**](https://my15.digitalexperience.ibm.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/home/), registrarse o iniciar sesión y seleccionar la opción de Students 
+4.	Seleccionar Add to Cart para IBM Bluemix – 6 Month Trial. 
+5.	Realizar el registro correspondiente utilizando la cuenta de correo académica 
+
+# Cargar créditos en IBM Cloud
+1.	Ingresamos a nuestro panel de control de IBM Cloud (console.bluemix.net)
+2.	Una vez que tengamos el código nos vamos a Gestionar>Facturación y Uso>Facturación
+3.	Buscamos “Códigos de características (Promocionales)”
 ## 1. Crea el Servicio de Watson Studio
 Entra a [**IBM Cloud**](https://cloud.ibm.com/) e ir a la sección de catálogo.<br/> <br/>
 ![](assets/cloud1.png) <br/> <br/>
@@ -88,7 +99,7 @@ Copia las credenciales en el editor de texto de tu preferencia para que podamos 
    ![](assets/cloud25.png)<br/><br/>
    
 ## 7.	Desplegar app en la nube 
-Sube la carpeta en donde tienes la app a un repositorio propio de GitHub.<br/>
+Sube la carpeta en donde tienes la app a un repositorio propio de GitHub. Si no sabes hacerlo puedes seguir las instrucciones [**aqui**](https://gist.github.com/cgonzalezdai/cc33db72a6fe5178637aabb562eae35c)<br/>
 Puedes desplegar esta aplicación como una Cloud Foundry application hacia IBM Cloud dando click en el botón de abajo. Esta opción creará una deployment pipeline, con un Git lab project hosteado y una devops toolchain.<br/>    
 <p align="center">
     <a href="https://cloud.ibm.com/devops/setup/deploy?repository">
